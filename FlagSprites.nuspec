@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FlagSprites</id>
+    <title>Country flags in single CSS sprite</title>
+    <version>1.0</version>
+    <authors>http://flag-sprites.com</authors>
+    <!-- <owners>flag-sprites.com</owners> -->
+    <!-- <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl> -->
+    <projectUrl>http://flag-sprites.com/</projectUrl>
+    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CSS Sprites - a method to optimize page loads by combining a large number of small images into one. The method of extremely relevant with the active use of country flags - with all the flags on one page, then load it, the browser will need to make only two server requests instead of 247.</description>    
+    <tags>flags css</tags>
+  </metadata>
+  <files>
+    <file src="Content\Content\flags.css" target="Content\Content\flags.css" />
+    <file src="Content\Content\flags.png" target="Content\Content\flags.png" />
+  </files>
+</package>
